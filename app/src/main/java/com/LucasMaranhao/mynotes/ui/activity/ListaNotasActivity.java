@@ -29,5 +29,7 @@ public class ListaNotasActivity extends AppCompatActivity {
         List<Nota> todasNotas = dao.todos();
 
         listaNotas.setAdapter(new ListaNotasAdapter(this, todasNotas));
+
+        
     }
 }
